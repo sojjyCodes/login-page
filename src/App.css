@@ -41,8 +41,13 @@
 }
 
 #IdInput:hover {
+  width: 300px;
+}
+
+#IdInput:focus {
   width: 330px;
 }
+
 
 #passwordInput {
   border: 2px solid black;
@@ -58,13 +63,19 @@
 }
 
 #passwordInput:hover {
+  width: 300px;
+}
+
+#passwordInput:focus {
   width: 330px;
 }
 
 .login-btn {
+  position: relative;
   justify-content: center;
   background-color: #09d3ac;
   margin-top: 155px;
+  border-radius: 24px;
   padding: 12px;
   width: 250px;
   color: #ffffff;
