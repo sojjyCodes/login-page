@@ -1,5 +1,7 @@
 .background {
-  display: grid;  
+  display: flex; 
+  padding-top: 60px;
+  flex-direction: column; 
   place-items: center;
   height: 100vh;
   background-color: black; 
@@ -13,7 +15,7 @@
 }
 
 .box {
-  height: 75vh;
+  height: 70vh;
   background-color: #19242A;
   width: 450px;
   margin-bottom: 35px;
@@ -30,7 +32,7 @@
 #IdInput {
   border: 2px solid black;
   border-radius: 12px;
-  margin-top: 70px;
+  margin-top: 85px;
   padding: 20px;
   background-color: #ffffff;
   color: #000000;
@@ -48,7 +50,6 @@
 #IdInput:focus {
   width: 330px;
 }
-
 
 #passwordInput {
   border: 2px solid black;
