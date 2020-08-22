@@ -1,7 +1,5 @@
 .background {
-  display: flex; 
-  padding-top: 60px;
-  flex-direction: column; 
+  display: grid;  
   place-items: center;
   height: 100vh;
   background-color: black; 
@@ -15,7 +13,7 @@
 }
 
 .box {
-  height: 70vh;
+  height: 75vh;
   background-color: #19242A;
   width: 450px;
   margin-bottom: 35px;
