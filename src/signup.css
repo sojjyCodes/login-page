@@ -1,0 +1,144 @@
+.background {
+  display: grid;  
+  height: 100vh;
+  background-color: black; 
+}
+
+.text {
+  color: tomato;
+  padding-bottom: 20px;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.box {
+  height: 75vh;
+  background-color: #19242A;
+  width: 450px;
+  margin-bottom: 35px;
+  border-radius: 20px;
+  max-width: 500;
+  max-height: 1200px;
+}
+
+.login-text {
+  color: white;
+  margin-top: 10 
+}
+
+#IdInput {
+  border: 0px solid black;
+  border-radius: 10px;
+  margin-top: 85px;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  width: 250px;
+  transition: ease-in-out, width .35s ease-in-out;
+}
+
+#IdInput:hover {
+  width: 300px;
+}
+
+#IdInput:focus {
+  width: 330px;
+}
+
+#emailId {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: sans-serif;
+  width: 250px;
+  transition: ease-in-out, width .35s ease-in-out;
+}
+
+#emailId:hover {
+  width: 300px;
+}
+
+#emailId:focus {
+  width: 330px;
+}
+#passwordInput {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: sans-serif;
+  width: 250px;
+  transition: ease-in-out, width .35s ease-in-out;
+}
+
+#passwordInput:hover {
+  width: 300px;
+}
+
+#passwordInput:focus {
+  width: 330px;
+}
+
+.login-btn {
+  position: relative;
+  justify-content: center;
+  background-color: #09d3ac;
+  margin-top: 155px;
+  border-radius: 24px;
+  padding: 12px;
+  width: 250px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: large;
+  animation: ease-in-out, width .35s ease-out;
+  cursor: pointer;
+}
+.login-btn:hover {
+  background-color: #c9302c;
+  color: black;
+} 
+
+#footer-text {
+
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: grey;
+}
+
+footer:hover {
+  background-color: firebrick;
+  padding: 1px;
+  color: #ffffff;
+  font-weight: bold;
+  animation: ease-in-out, width .35s ease-out;
+  cursor: pointer;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  transition: all 0.4s;
+}
