@@ -1,7 +1,7 @@
 .background {
-  display: grid;  
+  display: grid;
   height: 100vh;
-  background-color: black; 
+  background-color: black;
 }
 
 .text {
@@ -13,7 +13,7 @@
 
 .box {
   height: 75vh;
-  background-color: #19242A;
+  background-color: #19242a;
   width: 450px;
   margin-bottom: 35px;
   border-radius: 20px;
@@ -23,7 +23,7 @@
 
 .login-text {
   color: white;
-  margin-top: 10 
+  margin-top: 10;
 }
 
 #IdInput {
@@ -37,7 +37,7 @@
   font-weight: bold;
   font-size: 17px;
   width: 250px;
-  transition: ease-in-out, width .35s ease-in-out;
+  transition: ease-in-out, width 0.35s ease-in-out;
 }
 
 #IdInput:hover {
@@ -59,7 +59,7 @@
   font-size: 17px;
   font-family: sans-serif;
   width: 250px;
-  transition: ease-in-out, width .35s ease-in-out;
+  transition: ease-in-out, width 0.35s ease-in-out;
 }
 
 #passwordInput:hover {
@@ -75,6 +75,8 @@
   justify-content: center;
   background-color: #09d3ac;
   margin-top: 155px;
+  border: none;
+  border-color: #000;
   border-radius: 24px;
   padding: 12px;
   width: 250px;
@@ -82,16 +84,15 @@
   font-weight: bold;
   text-decoration: none;
   font-size: large;
-  animation: ease-in-out, width .35s ease-out;
+  animation: ease-in-out, width 0.35s ease-out;
   cursor: pointer;
 }
 .login-btn:hover {
   background-color: #c9302c;
   color: black;
-} 
+}
 
 #footer-text {
-
   color: white;
   padding: 10px;
   margin: 0;
@@ -113,7 +114,7 @@ footer:hover {
   padding: 1px;
   color: #ffffff;
   font-weight: bold;
-  animation: ease-in-out, width .35s ease-out;
+  animation: ease-in-out, width 0.35s ease-out;
   cursor: pointer;
   position: fixed;
   left: 0;
