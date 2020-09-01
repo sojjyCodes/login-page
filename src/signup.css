@@ -1,7 +1,9 @@
+.head {
+}
 .background {
-  display: grid;  
+  display: grid;
   height: 100vh;
-  background-color: black; 
+  background-color: black;
 }
 
 .text {
@@ -13,7 +15,7 @@
 
 .box {
   height: 75vh;
-  background-color: #19242A;
+  background-color: #19242a;
   width: 450px;
   margin-bottom: 35px;
   border-radius: 20px;
@@ -23,7 +25,7 @@
 
 .login-text {
   color: white;
-  margin-top: 10 
+  margin-top: 10;
 }
 
 #IdInput {
@@ -37,7 +39,7 @@
   font-weight: bold;
   font-size: 17px;
   width: 250px;
-  transition: ease-in-out, width .35s ease-in-out;
+  transition: ease-in-out, width 0.35s ease-in-out;
 }
 
 #IdInput:hover {
@@ -48,27 +50,6 @@
   width: 330px;
 }
 
-#emailId {
-  border: 2px solid black;
-  border-radius: 10px;
-  margin-top: 100px;
-  padding: 20px;
-  background-color: #ffffff;
-  color: #000000;
-  font-weight: bold;
-  font-size: 17px;
-  font-family: sans-serif;
-  width: 250px;
-  transition: ease-in-out, width .35s ease-in-out;
-}
-
-#emailId:hover {
-  width: 300px;
-}
-
-#emailId:focus {
-  width: 330px;
-}
 #passwordInput {
   border: 2px solid black;
   border-radius: 10px;
@@ -80,7 +61,7 @@
   font-size: 17px;
   font-family: sans-serif;
   width: 250px;
-  transition: ease-in-out, width .35s ease-in-out;
+  transition: ease-in-out, width 0.35s ease-in-out;
 }
 
 #passwordInput:hover {
@@ -96,6 +77,8 @@
   justify-content: center;
   background-color: #09d3ac;
   margin-top: 155px;
+  border: none;
+  border-color: #000;
   border-radius: 24px;
   padding: 12px;
   width: 250px;
@@ -103,16 +86,15 @@
   font-weight: bold;
   text-decoration: none;
   font-size: large;
-  animation: ease-in-out, width .35s ease-out;
+  animation: ease-in-out, width 0.35s ease-out;
   cursor: pointer;
 }
 .login-btn:hover {
   background-color: #c9302c;
   color: black;
-} 
+}
 
 #footer-text {
-
   color: white;
   padding: 10px;
   margin: 0;
@@ -134,7 +116,7 @@ footer:hover {
   padding: 1px;
   color: #ffffff;
   font-weight: bold;
-  animation: ease-in-out, width .35s ease-out;
+  animation: ease-in-out, width 0.35s ease-out;
   cursor: pointer;
   position: fixed;
   left: 0;
