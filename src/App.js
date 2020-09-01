@@ -11,7 +11,8 @@ import {
 } from "react-bootstrap";
 
 function Popup() {
-  alert("Are you sure you want to proceed");
+  const calculation = 1 + 1;
+  alert("Are you sure you want to proceed?");
 }
 
 function App() {
