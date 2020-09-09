@@ -17,7 +17,7 @@ function Popup() {
 function Backend() {}
 
 function Signup() {
-  return (
+  return ( 
     <div className="background">
       <div className="header">
         <h1 className="text">Login Page</h1>
